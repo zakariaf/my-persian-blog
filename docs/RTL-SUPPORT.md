@@ -54,25 +54,23 @@ The RTL support works by:
 
 To create content in an RTL language:
 
-1. Add the appropriate `lang` attribute in the front matter of your post or page:
+- Add the appropriate `lang` attribute in the front matter of your post or page:
 
-```yaml
----
-title: عنوان المقال
-author: اسم الكاتب
-date: 2023-01-01
-lang: ar
-# other front matter...
----
+  ```yaml
+  ---
+  title: عنوان المقال
+  author: اسم الكاتب
+  date: 2023-01-01
+  lang: ar
+  # other front matter...
+  ---
 
-محتوى المقال هنا...
-```
+  محتوى المقال هنا...
+  ```
 
-2. The theme will automatically detect the language and apply RTL styling and appropriate fonts.
-
-3. When using RTL languages, the whole page will be displayed in RTL mode, including navigation, sidebar, and other UI elements.
-
-4. If you've provided a localization file for the language (e.g., `_data/locales/ar.yml`), the theme will use it for UI text.
+- The theme will automatically detect the language and apply RTL styling and appropriate fonts.
+- When using RTL languages, the whole page will be displayed in RTL mode, including navigation, sidebar, and other UI elements.
+- If you've provided a localization file for the language (e.g., `_data/locales/ar.yml`), the theme will use it for UI text.
 
 ## Language-Specific Fonts
 
