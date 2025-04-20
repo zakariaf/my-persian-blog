@@ -12,7 +12,7 @@ layout: compress
   {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
 {% endif %}
 
-<!-- `site.alt_lang` can specify a language different from the UI -->
+<!-- `lang` and `dir` attributes are set in _includes/lang.html -->
 <html lang="{{ lang }}" dir="{{ dir }}" {{ prefer_mode }}>
   {% include head.html %}
 
