@@ -11,7 +11,7 @@ rtl_support: false
 # RTL Languages array - add more languages if needed
 rtl_languages:
   - ar
-  - fa-IR
+  - fa
   - ku-IQ
   - ur-PK
   - ps-AF

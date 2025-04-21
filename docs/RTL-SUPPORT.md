@@ -29,7 +29,7 @@ rtl_support: false
 # RTL Languages array - add more languages if needed
 rtl_languages:
   - ar
-  - fa-IR
+  - fa
   - he
   - ku-IQ
   - ur-PK
@@ -81,7 +81,7 @@ The theme includes built-in support for several RTL language fonts:
 - **Hebrew**: Noto Sans Hebrew
 - **Urdu**: Noto Nastaliq Urdu
 
-These fonts are automatically applied based on the page's language attribute. For example, if your page has `lang: fa-IR`, the Vazirmatn font will be used.
+These fonts are automatically applied based on the page's language attribute. For example, if your page has `lang: fa`, the Vazirmatn font will be used.
 
 ## Customization
 

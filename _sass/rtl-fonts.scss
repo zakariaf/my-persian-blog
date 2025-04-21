@@ -60,7 +60,7 @@ html[lang^='ar-'] {
   }
 }
 
-html[lang='fa-IR'] {
+html[lang='fa'] {
   &,
   body {
     font-family: 'Vazirmatn', v.$font-family-base;
@@ -97,7 +97,7 @@ html[lang='ur-PK'] {
 }
 
 /* Default RTL font for other RTL languages */
-html[dir='rtl']:not([lang='ar']):not([lang^='ar-']):not([lang='fa-IR']):not(
+html[dir='rtl']:not([lang='ar']):not([lang^='ar-']):not([lang='fa']):not(
     [lang='ur-PK']
   ) {
   &,
