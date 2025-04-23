@@ -2,7 +2,7 @@
 
 <div align="left">
 
-  ![GitHub license](https://img.shields.io/github/license/zakariaf/mypersian-blog?color=goldenrod)&nbsp;
+  ![GitHub license](https://img.shields.io/github/license/zakariaf/my-persian-blog?color=goldenrod)&nbsp;
   ![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)
 
 </div>
