@@ -1,85 +1,51 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center">
 
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+<div align="left">
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
-
-  [**Live Demo** →][demo]
-
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+  ![GitHub license](https://img.shields.io/github/license/zakariaf/mypersian-blog?color=goldenrod)&nbsp;
+  ![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)
 
 </div>
 
-## Features
+# وب‌سایت و وبلاگ فارسی زکریا
 
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
-- RTL Support
+به نسخه‌ی فارسی وب‌سایت شخصی من خوش آمدید! این سایت با استفاده از [Jekyll](https://jekyllrb.com/) و قالب [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) ساخته شده و به‌طور خاص برای زبان‌های راست‌به‌چپ مثل فارسی، کردی و عربی بهینه شده است. اینجا مطالب فنی مرتبط با مهندسی نرم‌افزار رو منتشر می‌کنم.
 
-## Documentation
+## هدف از این سایت
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+- **اشتراک دانش:** آموزش‌ها و مقالات فنی در حوزه‌ی مهندسی نرم‌افزار، از اصول کدنویسی تا معماری سیستم‌ها.
+- **دسترسی آزاد:** تمامی محتوا رایگان و عمومی منتشر می‌شود تا توسعه‌دهندگان فارسی‌زبان به راحتی از آن استفاده کنند.
+- **قابل توسعه و مشارکت‌پذیر:** سایت روی GitHub منتشر شده و هر کسی می‌تونه در توسعه‌ی اون مشارکت کنه یا حتی از ساختار اون برای ساخت وبلاگ شخصی خودش استفاده کنه.
 
-## Contributing
+## قابل توسعه و مشارکت‌پذیر
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
+این پروژه متن‌بازه و برای هر نوع مشارکتی بازه — از اصلاح یه جمله تا نوشتن مقاله‌ی جدید.
+اگه دوست داری می‌تونی کل سایت رو Fork کنی و برای خودت یه نسخه‌ی شخصی‌سازی‌شده بسازی.
 
-## Credits
+🔗 [فورک کردن مخزن در GitHub](https://github.com/zakariaf/my-persian-blog/fork)
 
-### Contributors
+## یادداشت فنی
 
-Thanks to [all the contributors][contributors] involved in the development of the project!
+برای پشتیبانی بهتر از زبان‌های راست‌به‌چپ، قالب Chirpy رو سفارشی‌سازی کردم 🙂
+تغییراتی که انجام دادم:
 
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
+- پشتیبانی کامل از ساختار RTL
+- اضافه کردن فونت فارسی وزیر برای خوانایی بهتر
+- پشتیبانی از زبان‌های فارسی، کردی و عربی
 
-### Third-Party Assets
+این تغییرات به‌صورت Pull Request به مخزن اصلی ارسال شده:
 
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
+🔗 [مشاهده Pull Request در GitHub](https://github.com/cotes2020/jekyll-theme-chirpy/pull/2367)
 
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
+## مجوز
 
-## License
+این پروژه تحت مجوز [MIT](LICENSE) منتشر شده است.
 
-This project is published under [MIT License][license].
+## تشکر ویژه
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+- قالب [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) که پایه‌ی این سایت رو فراهم کرد.
+- تمامی پروژه‌های متن‌باز و توسعه‌دهندگانی که الهام‌بخش این مسیر بودن.
+
+---
+
+اگر پیشنهاد، مقاله یا سوالی داشتی، خوشحال می‌شم در ارتباط باشیم. به امید یادگیری و رشد بیشتر 🌱
