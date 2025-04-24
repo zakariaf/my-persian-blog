@@ -49,7 +49,7 @@ github:
   username: zakariaf # change to your GitHub username
 
 twitter:
-  username: ZFatahi25142 # change to your Twitter username
+  username: zfatahi_dev # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -58,7 +58,7 @@ social:
   email: zakaria.fatahi@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/ZFatahi25142 # change to your Twitter homepage
+    - https://twitter.com/zfatahi_dev # change to your Twitter homepage
     - https://github.com/zakariaf # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
