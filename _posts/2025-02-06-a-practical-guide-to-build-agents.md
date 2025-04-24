@@ -13,7 +13,7 @@ tags:
   - راهنمای عملی # Practical Guide
 render_with_liquid: false
 media_subpath: /assets/img/posts/2025-02-06-a-practical-guide-to-build-agents
-image: cover.png # Cover image for the post
+image: cover.jpeg # Cover image for the post
 mermaid: true # Enable Mermaid diagrams
 description: "راهنمای عملی از شرکت OpenAI برای ساخت عامل (Agent) هوش مصنوعی با استفاده از مدل‌های زبانی بزرگ (LLM) که شامل مبانی، اصول طراحی، الگوهای هماهنگ‌سازی و نکات کلیدی برای اجرای ایمن و مؤثر عامل‌ها است."
 
