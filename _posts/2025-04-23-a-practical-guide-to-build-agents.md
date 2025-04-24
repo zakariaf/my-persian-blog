@@ -12,7 +12,7 @@ tags:
   - OpenAI
   - راهنمای عملی # Practical Guide
 render_with_liquid: false
-media_subpath: /assets/img/posts/2025-02-06-a-practical-guide-to-build-agents
+media_subpath: /assets/img/posts/2025-04-23-a-practical-guide-to-build-agents
 image: cover.jpeg # Cover image for the post
 mermaid: true # Enable Mermaid diagrams
 description: "راهنمای عملی از شرکت OpenAI برای ساخت عامل (Agent) هوش مصنوعی با استفاده از مدل‌های زبانی بزرگ (LLM) که شامل مبانی، اصول طراحی، الگوهای هماهنگ‌سازی و نکات کلیدی برای اجرای ایمن و مؤثر عامل‌ها است."
@@ -507,4 +507,4 @@ Agents SDK محدودیت‌های ایمنی را به عنوان بخش اصل
 OpenAI یک شرکت تحقیق و پیاده‌سازی هوش مصنوعی است. مأموریت ما این است که اطمینان حاصل کنیم هوش عمومی مصنوعی (AGI) به نفع تمام بشریت باشد.
 
 >
-  برای دانلود فایل اصلی A practical guide to building agents از OpenAI، [اینجا کلیک کنید](/download/2025-02-06-a-practical-guide-to-build-agents/a-practical-guide-to-building-agents.pdf){:target="_blank"}.
+  برای دانلود فایل اصلی A practical guide to building agents از OpenAI، [اینجا کلیک کنید](/download/2025-04-23-a-practical-guide-to-build-agents/a-practical-guide-to-building-agents.pdf){:target="_blank"}.
