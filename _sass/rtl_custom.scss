@@ -1,0 +1,9 @@
+// This file is used to override the default styles for right-to-left (RTL) languages.
+html[dir='rtl'] {
+  .english-references {
+    direction: ltr;
+    text-align: left;
+    font-size: 0.9em;
+    font-family: var(--font-family-monospace);
+  }
+}
