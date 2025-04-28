@@ -148,55 +148,277 @@ LLM های انسان‌محور معمولاً برای پاداش‌های م�
 ## رفرنس‌ها
 
 <div class="english-references">
-
-- [1] I. Akkaya, M. Andrychowicz, M. Chociej, M. Litwin, B. McGrew, A. Petron, A. Paino, M. Plappert, G. Powell, R. Ribas, J. Schneider, N. Tezak, J. Tworek, P. Welinder, L. Weng, Q. Yuan, W. Zaremba, and L. Zhang. Solving Rubik’s cube with a robot hand, 2019.
-- [2] S. Amin, M. Gomrokchi, H. Satija, H. van Hoof, and D. Precup. A survey of exploration methods in reinforcement learning, 2021.
-- [3] Anthropic. Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku. https://www.anthropic.com/news/3-5-models-and-computer-use, 2024.
-- [4] C. Berner, G. Brockman, B. Chan, V. Cheung, P. Debiak, C. Dennison, D. Farhi, Q. Fischer, S. Hashme, C. Hesse, R. Jozefowicz, S. Gray, C. Olsson, J. Pachocki, M. Petrov, H. P. d. O. Pinto, J. Raiman, T. Salimans, J. Schlatter, J. Schneider, S. Sidor, I. Sutskever, J. Tang, F. Wolski, and S. Zhang. Dota 2 with large scale deep reinforcement learning, 2019.
-- [5] N. Bostrom. Ethical issues in advanced artificial intelligence. https://nickbostrom.com/ethics/ai, 2003.
-- [6] N. Brown and T. Sandholm. Superhuman AI for heads-up no-limit poker: Libratus beats top professionals. Science, 359(6374):418–424, 2018.
-- [7] X. Chen, M. Lin, N. Scharli, and D. Zhou. Teaching large language models to self-debug, 2023.
-- [8] N. Chentanez, A. Barto, and S. Singh. Intrinsically motivated reinforcement learning. In L. Saul, Y. Weiss, and L. Bottou, editors, Advances in Neural Information Processing Systems, volume 17. MIT Press, 2004.
-- [9] P. F. Christiano, J. Leike, T. Brown, M. Martic, S. Legg, and D. Amodei. Deep reinforcement learning from human preferences. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017.
-- [10] DeepSeek AI. DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learning. arXiv preprint arXiv:2501.12948, 2025.
-- [11] M. Elsayed, G. Vasan, and A. R. Mahmood. Streaming deep reinforcement learning finally works, 2024.
-- [12] J. Gehring, K. Zheng, J. Copet, V. Mella, Q. Carbonneaux, T. Cohen, and G. Synnaeve. Rlef: Grounding code llms in execution feedback with reinforcement learning, 2025.
-- [13] Google DeepMind. Deepmind AI reduces google data centre cooling bill by 40%. https://deepmind.google/discover/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/, 2016.
-- [14] Google DeepMind. Gemini: Flash thinking. https://deepmind.google/technologies/gemini/flash-thinking/, 2024.
-- [15] Google DeepMind. Project Mariner. https://deepmind.google/technologies/project-mariner, 2024.
-- [16] T. Kojima, S. S. Gu, M. Reid, Y. Matsuo, and Y. Iwasawa. Large language models are zero-shot reasoners. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information Processing Systems, volume 35, pages 22199–22213. Curran Associates, Inc., 2022.
-- [17] H. Le, Y. Wang, A. D. Gotmare, S. Savarese, and S. C. H. Hoi. CodeRL: Mastering code generation through pretrained models and deep reinforcement learning, 2022.
-- [18] H. Lightman, V. Kosaraju, Y. Burda, H. Edwards, B. Baker, T. Lee, J. Leike, J. Schulman, I. Sutskever, and K. Cobbe. Let’s verify step by step, 2023.
-- [19] H. Mahdavi, A. Hashemi, M. Daliri, P. Mohammadipour, A. Farhadi, S. Malek, Y. Yazdanifard, A. Khasahmadi, and V. Honavar. Brains vs. bytes: Evaluating llm proficiency in olympiad mathematics, 2025.
-- [20] H. Masoom, A. Huang, M. Z. Horvath, T. Zahavy, V. Veeriah, E. Wieser, J. Yung, L. Yu, Y. Schroecker, J. Schrittwieser, O. Bertolli, B. Ibarz, E. Lockhart, E. Hughes, M. Rowland, G. Margand, A. Davies, D. Zheng, I. Beloshapka, I. von Glehn, Y. Li, F. Pedregosa, A. Velingker, G. Zuˇ ziˇ c, O. Nash, B. Mehta, P. Lezeau, S. Mercuri, L. Wu, C. Soenne, T. Murrills, L. Massacci, A. Yang, A. Mandhane, T. Eccles, E. Aygun, Z. Gong, R. Evans, S. Mokra, A. Barekatain, W. Shang, H. Openshaw, F. Gimeno, D. Silver, and P. Kohli. AI achieves silver-medal standard solving International Mathematical Olympiad problems. https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/, 2024.
-- [21] V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. Bellemare, A. Graves, M. Riedmiller, A. K. Fidjeland, G. Ostrovski, S. Petersen, C. Beattie, A. Sadik, I. Antonoglou, H. King, D. Kumaran, D. Wierstra, S. Legg, and D. Hassabis. Human-level control through deep reinforcement learning. Nature, 518(7540):529–533, 2015.
-- [22] M. Moravck, M. Schmid, N. Burch, V. Lisy, D. Morrill, N. Bard, T. Davis, K. Waugh, M. Johanson, and M. Bowling. Deepstack: Expert-level artificial intelligence in heads-up no-limit poker. Science, 356(6337):508–513, 2017.
-- [23] OpenAI. Openai o1 mini: Advancing cost-efficient reasoning. https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/, 2024.
-- [24] OpenAI. Introducing Operator. https://openai.com/index/introducing-operator, 2025.
-- [25] L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. L. Wainwright, P. Mishkin, C. Zhang, S. Agarwal, K. Slama, A. Ray, J. Schulman, J. Hilton, F. Kelton, L. Miller, M. Simens, A. Askell, P. Welinder, P. Christiano, J. Leike, and R. Lowe. Training language models to follow instructions with human feedback, 2022.
-- [26] J. Perolat, B. D. Vylder, D. Hennes, E. Tarassov, F. Strub, V. de Boer, P. Muller, J. T. Connor, N. Burch, T. Anthony, S. McAleer, R. Elie, S. H. Cen, Z. Wang, A. Gruslys, A. Malysheva, M. Khan, S. Ozair, F. Timbers, T. Pohlen, T. Eccles, M. Rowland, M. Lanctot, J.-B. Lespiau, B. Piot, S. Omidshafiei, E. Lockhart, L. Sifre, N. Beauguerlange, R. Munos, D. Silver, S. Singh, D. Hassabis, and K. Tuyls. Mastering the game of Stratego with model-free multiagent reinforcement learning. Science, 378(6623):990–996, 2022.
-- [27] I. Petrov, J. Dekoninck, L. Baltadzhiev, M. Drencheva, K. Minchev, M. Balunovic, N. Jovanovic, and M. Vechev. Proof or bluff? evaluating llms on 2025 usa math olympiad, 2025.
-- [28] M. Sadler and N. Regan. Game Changer. New in Chess, 2019.
-- [29] J. Schrittwieser, I. Antonoglou, T. Hubert, K. Simonyan, L. Sifre, S. Schmitt, A. Guez, E. Lockhart, D. Hassabis, T. Graepel, T. P. Lillicrap, and D. Silver. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature, 588:604 – 609, 2019.
-- [30] D. Schurmanns. Memory augmented large language models are computationally universal. arXiv preprint arXiv:2501.12948, 2023.
-- [31] D. Silver, A. Huang, C. J. Maddison, A. Guez, L. Sifre, G. Van Den Driessche, J. Schrittwieser, I. Antonoglou, V. Panneershelvam, M. Lanctot, S. Dieleman, D. Grewe, J. Nham, N. Kalchbrenner, I. Sutskever, T. Lillicrap, M. Leach, K. Kavukcuoglu, T. Graepel, and D. Hassabis. Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587):484–489, 2016.
-- [32] D. Silver, T. Hubert, J. Schrittwieser, I. Antonoglou, M. Lai, A. Guez, M. Lanctot, L. Sifre, D. Kumaran, T. Graepel, T. Lillicrap, K. Simonyan, and D. Hassabis. A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play. Science, 362(6419):1140–1144, 2018.
-- [33] D. Silver, J. Schrittwieser, K. Simonyan, I. Antonoglou, A. Huang, A. Guez, T. Hubert, L. Baker, M. Lai, A. Bolton, Y. Chen, T. Lillicrap, F. Hui, L. Sifre, G. van den Driessche, T. Grapel, and D. Hassabis. Mastering the game of go without human knowledge. Nature, 550(7676):354–359, 2017.
-- [34] D. Silver, S. Singh, D. Precup, and R. S. Sutton. Reward is enough. Artificial Intelligence, 299:103535, 2021.
-- [35] R. S. Sutton. Learning to predict by the methods of temporal differences. Machine Learning, 3:9–44, 1988.
-- [36] R. S. Sutton. Integrated architectures for learning, planning, and reacting based on approximating dynamic programming. In Proceedings of the Seventh International Conference on Machine Learning, pages 216–224. Morgan Kaufmann, 1990.
-- [37] R. S. Sutton and A. G. Barto. Reinforcement Learning: An Introduction. The MIT Press, second edition, 2018.
-- [38] R. S. Sutton, D. Precup, and S. Singh. Between mdps and semi-mdps: A framework for temporal abstraction in reinforcement learning. Artificial Intelligence, 112(1-2):181–211, 1999.
-- [39] G. Tesauro. TD-Gammon, a self-teaching backgammon program, achieves master-level play. Neural Computation, 6(2):215–219, 1994.
-- [40] O. Vinyals, I. Babuschkin, W. M. Czarnecki, M. Mathieu, A. Dudzik, J. Chung, D. Choi, R. Powell, T. Ewalds, P. Georgiev, J. Oh, D. Horgan, M. Kroiss, I. Danihelka, A. Huang, L. Sifre, T. Cai, J. P. Agapiou, M. Jaderberg, A. S. Vezhnevets, R. Leblond, T. Pohlen, V. Dalibard, D. Budden, Y. Sulsky, J. Molloy, T. L. Paine, C. Gulcehre, Z. Wang, T. Pfaff, Y. Wu, R. Ring, D. Yogatama, D. Wunsch, K. McKinney, O. Smith, T. Schaul, T. P. Lillicrap, K. Kavukcuoglu, D. Hassabis, C. Apps, and D. Silver. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature, 575:350 – 354, 2019.
-- [41] P. R. Wurman, S. Barrett, K. Kawamoto, J. MacGlashan, K. Subramanian, T. J. Walsh, R. Capobianco, A. Devlic, F. Eckert, F. Fuchs, L. Gilpin, P. Khandelwal, V. Kompella, H. Lin, P. MacAlpine, D. Oller, T. Seno, C. Sherstan, M. D. Thomure, H. Aghabozorgi, L. Barrett, R. Douglas, D. Whitehead, P. Durr, P. Stone, M. Spranger, and H. Kitano. Outracing champion Gran Turismo drivers with deep reinforcement learning. Nature, 602(7896):223–228, 2022.
-- [42] M. S. Yang, D. Schuurmans, P. Abbeel, and O. Nachum. Chain of thought imitation with procedure cloning. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information Processing Systems, volume 35, pages 36366–36381. Curran Associates, Inc., 2022.
-- [43] S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao. React: Synergizing reasoning and acting in large language models. In 11th International Conference on Learning Representations, 2023.
-- [44] E. Zelikman, J. M. Mu, N. D. Goodman, and G. Poesia. Star: Bootstrapping reasoning with reasoning. Advances in Neural Information Processing Systems, 35:24170–24184, 2022.
-- [45] Y. Zhou. Rethinking Opening Strategy: AlphaGo’s Impact on Pro Play. CreateSpace Independent, 2018.
-
+  <div class="reference">
+    <div class="reference-number">[1]</div>
+    <div class="reference-text">
+      I. Akkaya, M. Andrychowicz, M. Chociej, M. Litwin, B. McGrew, A. Petron, A. Paino, M. Plappert, G. Powell, R. Ribas, J. Schneider, N. Tezak, J. Tworek, P. Welinder, L. Weng, Q. Yuan, W. Zaremba, and L. Zhang. Solving Rubik’s cube with a robot hand, 2019.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[2]</div>
+    <div class="reference-text">
+      S. Amin, M. Gomrokchi, H. Satija, H. van Hoof, and D. Precup. A survey of exploration methods in reinforcement learning, 2021.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[3]</div>
+    <div class="reference-text">
+      Anthropic. Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku. https://www.anthropic.com/news/3-5-models-and-computer-use, 2024.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[4]</div>
+    <div class="reference-text">
+      C. Berner, G. Brockman, B. Chan, V. Cheung, P. Debiak, C. Dennison, D. Farhi, Q. Fischer, S. Hashme, C. Hesse, R. Jozefowicz, S. Gray, C. Olsson, J. Pachocki, M. Petrov, H. P. d. O. Pinto, J. Raiman, T. Salimans, J. Schlatter, J. Schneider, S. Sidor, I. Sutskever, J. Tang, F. Wolski, and S. Zhang. Dota 2 with large scale deep reinforcement learning, 2019.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[5]</div>
+    <div class="reference-text">
+      N. Bostrom. Ethical issues in advanced artificial intelligence. https://nickbostrom.com/ethics/ai, 2003.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[6]</div>
+    <div class="reference-text">
+      N. Brown and T. Sandholm. Superhuman AI for heads-up no-limit poker: Libratus beats top professionals. Science, 359(6374):418–424, 2018.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[7]</div>
+    <div class="reference-text">
+      X. Chen, M. Lin, N. Scharli, and D. Zhou. Teaching large language models to self-debug, 2023.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[8]</div>
+    <div class="reference-text">
+      N. Chentanez, A. Barto, and S. Singh. Intrinsically motivated reinforcement learning. In L. Saul, Y. Weiss, and L. Bottou, editors, Advances in Neural Information Processing Systems, volume 17. MIT Press, 2004.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[9]</div>
+    <div class="reference-text">
+      P. F. Christiano, J. Leike, T. Brown, M. Martic, S. Legg, and D. Amodei. Deep reinforcement learning from human preferences. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[10]</div>
+    <div class="reference-text">
+      DeepSeek AI. DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learning. arXiv preprint arXiv:2501.12948, 2025.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[11]</div>
+    <div class="reference-text">
+      M. Elsayed, G. Vasan, and A. R. Mahmood. Streaming deep reinforcement learning finally works, 2024.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[12]</div>
+    <div class="reference-text">
+      J. Gehring, K. Zheng, J. Copet, V. Mella, Q. Carbonneaux, T. Cohen, and G. Synnaeve. Rlef: Grounding code llms in execution feedback with reinforcement learning, 2025.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[13]</div>
+    <div class="reference-text">
+      Google DeepMind. Deepmind AI reduces google data centre cooling bill by 40%. https://deepmind.google/discover/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/, 2016.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[14]</div>
+    <div class="reference-text">
+      Google DeepMind. Gemini: Flash thinking. https://deepmind.google/technologies/gemini/flash-thinking/, 2024.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[15]</div>
+    <div class="reference-text">
+      Google DeepMind. Project Mariner. https://deepmind.google/technologies/project-mariner, 2024.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[16]</div>
+    <div class="reference-text">
+      T. Kojima, S. S. Gu, M. Reid, Y. Matsuo, and Y. Iwasawa. Large language models are zero-shot reasoners. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information Processing Systems, volume 35, pages 22199–22213. Curran Associates, Inc., 2022.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[17]</div>
+    <div class="reference-text">
+      H. Le, Y. Wang, A. D. Gotmare, S. Savarese, and S. C. H. Hoi. CodeRL: Mastering code generation through pretrained models and deep reinforcement learning, 2022.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[18]</div>
+    <div class="reference-text">
+      H. Lightman, V. Kosaraju, Y. Burda, H. Edwards, B. Baker, T. Lee, J. Leike, J. Schulman, I. Sutskever, and K. Cobbe. Let’s verify step by step, 2023.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[19]</div>
+    <div class="reference-text">
+      H. Mahdavi, A. Hashemi, M. Daliri, P. Mohammadipour, A. Farhadi, S. Malek, Y. Yazdanifard, A. Khasahmadi, and V. Honavar. Brains vs. bytes: Evaluating llm proficiency in olympiad mathematics, 2025.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[20]</div>
+    <div class="reference-text">
+      H. Masoom, A. Huang, M. Z. Horvath, T. Zahavy, V. Veeriah, E. Wieser, J. Yung, L. Yu, Y. Schroecker, J. Schrittwieser, O. Bertolli, B. Ibarz, E. Lockhart, E. Hughes, M. Rowland, G. Margand, A. Davies, D. Zheng, I. Beloshapka, I. von Glehn, Y. Li, F. Pedregosa, A. Velingker, G. Zuˇ ziˇ c, O. Nash, B. Mehta, P. Lezeau, S. Mercuri, L. Wu, C. Soenne, T. Murrills, L. Massacci, A. Yang, A. Mandhane, T. Eccles, E. Aygun, Z. Gong, R. Evans, S. Mokra, A. Barekatain, W. Shang, H. Openshaw, F. Gimeno, D. Silver, and P. Kohli. AI achieves silver-medal standard solving International Mathematical Olympiad problems. https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/, 2024.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[21]</div>
+    <div class="reference-text">
+      V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. Bellemare, A. Graves, M. Riedmiller, A. K. Fidjeland, G. Ostrovski, S. Petersen, C. Beattie, A. Sadik, I. Antonoglou, H. King, D. Kumaran, D. Wierstra, S. Legg, and D. Hassabis. Human-level control through deep reinforcement learning. Nature, 518(7540):529–533, 2015.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[22]</div>
+    <div class="reference-text">
+      M. Moravck, M. Schmid, N. Burch, V. Lisy, D. Morrill, N. Bard, T. Davis, K. Waugh, M. Johanson, and M. Bowling. Deepstack: Expert-level artificial intelligence in heads-up no-limit poker. Science, 356(6337):508–513, 2017.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[23]</div>
+    <div class="reference-text">
+      OpenAI. Openai o1 mini: Advancing cost-efficient reasoning. https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/, 2024.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[24]</div>
+    <div class="reference-text">
+      OpenAI. Introducing Operator. https://openai.com/index/introducing-operator, 2025.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[25]</div>
+    <div class="reference-text">
+      L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. L. Wainwright, P. Mishkin, C. Zhang, S. Agarwal, K. Slama, A. Ray, J. Schulman, J. Hilton, F. Kelton, L. Miller, M. Simens, A. Askell, P. Welinder, P. Christiano, J. Leike, and R. Lowe. Training language models to follow instructions with human feedback, 2022.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[26]</div>
+    <div class="reference-text">
+      J. Perolat, B. D. Vylder, D. Hennes, E. Tarassov, F. Strub, V. de Boer, P. Muller, J. T. Connor, N. Burch, T. Anthony, S. McAleer, R. Elie, S. H. Cen, Z. Wang, A. Gruslys, A. Malysheva, M. Khan, S. Ozair, F. Timbers, T. Pohlen, T. Eccles, M. Rowland, M. Lanctot, J.-B. Lespiau, B. Piot, S. Omidshafiei, E. Lockhart, L. Sifre, N. Beauguerlange, R. Munos, D. Silver, S. Singh, D. Hassabis, and K. Tuyls. Mastering the game of Stratego with model-free multiagent reinforcement learning. Science, 378(6623):990–996, 2022.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[27]</div>
+    <div class="reference-text">
+      I. Petrov, J. Dekoninck, L. Baltadzhiev, M. Drencheva, K. Minchev, M. Balunovic, N. Jovanovic, and M. Vechev. Proof or bluff? evaluating llms on 2025 usa math olympiad, 2025.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[28]</div>
+    <div class="reference-text">
+      M. Sadler and N. Regan. Game Changer. New in Chess, 2019.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[29]</div>
+    <div class="reference-text">
+      J. Schrittwieser, I. Antonoglou, T. Hubert, K. Simonyan, L. Sifre, S. Schmitt, A. Guez, E. Lockhart, D. Hassabis, T. Graepel, T. P. Lillicrap, and D. Silver. Mastering Atari, Go, chess and shogi by planning with a learned model. Nature, 588:604 – 609, 2019.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[30]</div>
+    <div class="reference-text">
+      D. Schurmanns. Memory augmented large language models are computationally universal. arXiv preprint arXiv:2501.12948, 2023.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[31]</div>
+    <div class="reference-text">
+      D. Silver, A. Huang, C. J. Maddison, A. Guez, L. Sifre, G. Van Den Driessche, J. Schrittwieser, I. Antonoglou, V. Panneershelvam, M. Lanctot, S. Dieleman, D. Grewe, J. Nham, N. Kalchbrenner, I. Sutskever, T. Lillicrap, M. Leach, K. Kavukcuoglu, T. Graepel, and D. Hassabis. Mastering the game of Go with deep neural networks and tree search. Nature, 529(7587):484–489, 2016.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[32]</div>
+    <div class="reference-text">
+      D. Silver, T. Hubert, J. Schrittwieser, I. Antonoglou, M. Lai, A. Guez, M. Lanctot, L. Sifre, D. Kumaran, T. Graepel, T. Lillicrap, K. Simonyan, and D. Hassabis. A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play. Science, 362(6419):1140–1144, 2018.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[33]</div>
+    <div class="reference-text">
+      D. Silver, J. Schrittwieser, K. Simonyan, I. Antonoglou, A. Huang, A. Guez, T. Hubert, L. Baker, M. Lai, A. Bolton, Y. Chen, T. Lillicrap, F. Hui, L. Sifre, G. van den Driessche, T. Grapel, and D. Hassabis. Mastering the game of go without human knowledge. Nature, 550(7676):354–359, 2017.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[34]</div>
+    <div class="reference-text">
+      D. Silver, S. Singh, D. Precup, and R. S. Sutton. Reward is enough. Artificial Intelligence, 299:103535, 2021.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[35]</div>
+    <div class="reference-text">
+      R. S. Sutton. Learning to predict by the methods of temporal differences. Machine Learning, 3:9–44, 1988.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[36]</div>
+    <div class="reference-text">
+      R. S. Sutton. Integrated architectures for learning, planning, and reacting based on approximating dynamic programming. In Proceedings of the Seventh International Conference on Machine Learning, pages 216–224. Morgan Kaufmann, 1990.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[37]</div>
+    <div class="reference-text">
+      R. S. Sutton and A. G. Barto. Reinforcement Learning: An Introduction. The MIT Press, second edition, 2018.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[38]</div>
+    <div class="reference-text">
+      R. S. Sutton, D. Precup, and S. Singh. Between mdps and semi-mdps: A framework for temporal abstraction in reinforcement learning. Artificial Intelligence, 112(1-2):181–211, 1999.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[39]</div>
+    <div class="reference-text">
+      G. Tesauro. TD-Gammon, a self-teaching backgammon program, achieves master-level play. Neural Computation, 6(2):215–219, 1994.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[40]</div>
+    <div class="reference-text">
+      O. Vinyals, I. Babuschkin, W. M. Czarnecki, M. Mathieu, A. Dudzik, J. Chung, D. Choi, R. Powell, T. Ewalds, P. Georgiev, J. Oh, D. Horgan, M. Kroiss, I. Danihelka, A. Huang, L. Sifre, T. Cai, J. P. Agapiou, M. Jaderberg, A. S. Vezhnevets, R. Leblond, T. Pohlen, V. Dalibard, D. Budden, Y. Sulsky, J. Molloy, T. L. Paine, C. Gulcehre, Z. Wang, T. Pfaff, Y. Wu, R. Ring, D. Yogatama, D. Wunsch, K. McKinney, O. Smith, T. Schaul, T. P. Lillicrap, K. Kavukcuoglu, D. Hassabis, C. Apps, and D. Silver. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature, 575:350 – 354, 2019.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[41]</div>
+    <div class="reference-text">
+      P. R. Wurman, S. Barrett, K. Kawamoto, J. MacGlashan, K. Subramanian, T. J. Walsh, R. Capobianco, A. Devlic, F. Eckert, F. Fuchs, L. Gilpin, P. Khandelwal, V. Kompella, H. Lin, P. MacAlpine, D. Oller, T. Seno, C. Sherstan, M. D. Thomure, H. Aghabozorgi, L. Barrett, R. Douglas, D. Whitehead, P. Durr, P. Stone, M. Spranger, and H. Kitano. Outracing champion Gran Turismo drivers with deep reinforcement learning. Nature, 602(7896):223–228, 2022.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[42]</div>
+    <div class="reference-text">
+      M. S. Yang, D. Schuurmans, P. Abbeel, and O. Nachum. Chain of thought imitation with procedure cloning. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information Processing Systems, volume 35, pages 36366–36381. Curran Associates, Inc., 2022.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[43]</div>
+    <div class="reference-text">
+      S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao. React: Synergizing reasoning and acting in large language models. In 11th International Conference on Learning Representations, 2023.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[44]</div>
+    <div class="reference-text">
+      E. Zelikman, J. M. Mu, N. D. Goodman, and G. Poesia. Star: Bootstrapping reasoning with reasoning. Advances in Neural Information Processing Systems, 35:24170–24184, 2022.
+    </div>
+  </div>
+  <div class="reference">
+    <div class="reference-number">[45]</div>
+    <div class="reference-text">
+      Y. Zhou. Rethinking Opening Strategy: AlphaGo’s Impact on Pro Play. CreateSpace Independent, 2018.
+    </div>
+  </div>
 </div>
-
 
 ## پاورقی‌ها
 
