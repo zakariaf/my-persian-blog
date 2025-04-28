@@ -11,7 +11,7 @@ tags:
   - AI
   - LLM
 render_with_liquid: false
-media_subpath: /assets/img/posts/2025-04-27-welcome-to-the-era-of-experience
+media_subpath: /assets/img/posts/2025-04-28-welcome-to-the-era-of-experience
 description: "ما در آستانه عصر جدیدی در هوش مصنوعی ایستاده‌ایم که نویدبخش دستیابی به سطحی بی‌سابقه از توانایی است. نسل جدیدی از عامل‌ها (agents) با یادگیری عمدتاً از طریق تجربه، به قابلیت‌های فرابشری دست خواهند یافت. این یادداشت به بررسی ویژگی‌های کلیدی می‌پردازد که این عصر پیش رو را تعریف خواهند کرد.
 "
 
