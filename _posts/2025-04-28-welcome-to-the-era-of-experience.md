@@ -16,7 +16,7 @@ description: "ما در آستانه عصر جدیدی در هوش مصنوعی 
 "
 
 ---
-> این مطلب ترجمه‌ی مقاله Welcome to the Era of Experience از David Silver و Richard S. Sutton است که در اون ایده‌ی «یادگیری تجربی» رو به‌عنوان فاز بعدی توسعه‌ی هوش مصنوعی مطرح کردن. تلاش شده متن به دقت و با حفظ لحن حرفه‌ای مقاله اصلی بازگردانی شود.
+> این مطلب ترجمه‌ی مقاله [Welcome to the Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf){:target="_blank"} از David Silver و Richard S. Sutton است که در اون ایده‌ی «یادگیری تجربی» رو به‌عنوان فاز بعدی توسعه‌ی هوش مصنوعی مطرح کردن. تلاش شده متن به دقت و با حفظ لحن حرفه‌ای مقاله اصلی بازگردانی شود.
 
 > این پیش‌نویس فصلی است که در کتاب "طراحی یک هوش" (Designing an Intelligence)، منتشر شده توسط MIT Press، ظاهر خواهد شد.
 
@@ -145,22 +145,11 @@ LLM های انسان‌محور معمولاً برای پاداش‌های م�
 
 نویسندگان مایلند از نظرات و بحث‌های مفید توماس دگریس، روهین شاه، تام شاول و هادو ون هاسلت قدردانی کنند.
 
-## پاورقی‌ها
-
-[^footnote]: یک الگوریتم RL الگوریتمی است که یاد می‌گیرد با آزمون و خطا به هدفی دست یابد، یعنی رفتار خود را از تجربه تعامل با محیطش تطبیق می‌دهد. تطبیق ممکن است به هر وسیله‌ای اتفاق بیفتد، به عنوان مثال به‌روزرسانی وزن‌های یک شبکه عصبی، یا تطبیق در زمینه (in-context) بر اساس بازخورد از محیط.
-
-[^fn-nth-2]: تجربه و داده‌های انسانی دقیقاً متضاد نیستند. به عنوان مثال، یک سگ کاملاً از تجربه یاد می‌گیرد، اما تعامل انسانی بخشی از تجربه آن است.
-
-[^fn-nth-3]: فرضیه "پاداش کافی است" (reward-is-enough) نشان می‌دهد که هوش و توانایی‌های مرتبط با آن، می‌توانند به طور طبیعی از حداکثرسازی پاداش پدیدار شوند. این ممکن است شامل محیط‌هایی حاوی تعامل انسانی و پاداش‌های مبتنی بر بازخورد انسانی باشد.
-
-[^fn-nth-4]: در این مورد، همچنین می‌توان بازخورد انسانی ریشه‌دار را به عنوان یک تابع پاداش واحد در نظر گرفت که هدف کلی عامل را تشکیل می‌دهد، که با ساخت و بهینه‌سازی یک تابع پاداش ذاتی [8] مبتنی بر بازخورد غنی و ریشه‌دار، حداکثر می‌شود.
-
 ## رفرنس‌ها
 
 <div class="english-references">
 
-- [1] I. Akkaya, M. Andrychowicz, M. Chociej, M. Litwin, B. McGrew, A. Petron, A. Paino, M. Plappert, G. Powell, R. Ribas, J. Schneider, N. Tezak, J. Tworek, P. Welinder, L. Weng, Q. Yuan, W. Zaremba, and L. Zhang. Solving
-Rubik’s cube with a robot hand, 2019.
+- [1] I. Akkaya, M. Andrychowicz, M. Chociej, M. Litwin, B. McGrew, A. Petron, A. Paino, M. Plappert, G. Powell, R. Ribas, J. Schneider, N. Tezak, J. Tworek, P. Welinder, L. Weng, Q. Yuan, W. Zaremba, and L. Zhang. Solving Rubik’s cube with a robot hand, 2019.
 - [2] S. Amin, M. Gomrokchi, H. Satija, H. van Hoof, and D. Precup. A survey of exploration methods in reinforcement learning, 2021.
 - [3] Anthropic. Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku. https://www.anthropic.com/news/3-5-models-and-computer-use, 2024.
 - [4] C. Berner, G. Brockman, B. Chan, V. Cheung, P. Debiak, C. Dennison, D. Farhi, Q. Fischer, S. Hashme, C. Hesse, R. Jozefowicz, S. Gray, C. Olsson, J. Pachocki, M. Petrov, H. P. d. O. Pinto, J. Raiman, T. Salimans, J. Schlatter, J. Schneider, S. Sidor, I. Sutskever, J. Tang, F. Wolski, and S. Zhang. Dota 2 with large scale deep reinforcement learning, 2019.
@@ -201,8 +190,7 @@ Rubik’s cube with a robot hand, 2019.
 - [39] G. Tesauro. TD-Gammon, a self-teaching backgammon program, achieves master-level play. Neural Computation, 6(2):215–219, 1994.
 - [40] O. Vinyals, I. Babuschkin, W. M. Czarnecki, M. Mathieu, A. Dudzik, J. Chung, D. Choi, R. Powell, T. Ewalds, P. Georgiev, J. Oh, D. Horgan, M. Kroiss, I. Danihelka, A. Huang, L. Sifre, T. Cai, J. P. Agapiou, M. Jaderberg, A. S. Vezhnevets, R. Leblond, T. Pohlen, V. Dalibard, D. Budden, Y. Sulsky, J. Molloy, T. L. Paine, C. Gulcehre, Z. Wang, T. Pfaff, Y. Wu, R. Ring, D. Yogatama, D. Wunsch, K. McKinney, O. Smith, T. Schaul, T. P. Lillicrap, K. Kavukcuoglu, D. Hassabis, C. Apps, and D. Silver. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature, 575:350 – 354, 2019.
 - [41] P. R. Wurman, S. Barrett, K. Kawamoto, J. MacGlashan, K. Subramanian, T. J. Walsh, R. Capobianco, A. Devlic, F. Eckert, F. Fuchs, L. Gilpin, P. Khandelwal, V. Kompella, H. Lin, P. MacAlpine, D. Oller, T. Seno, C. Sherstan, M. D. Thomure, H. Aghabozorgi, L. Barrett, R. Douglas, D. Whitehead, P. Durr, P. Stone, M. Spranger, and H. Kitano. Outracing champion Gran Turismo drivers with deep reinforcement learning. Nature, 602(7896):223–228, 2022.
-- [42] M. S. Yang, D. Schuurmans, P. Abbeel, and O. Nachum. Chain of thought imitation with procedure cloning. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information
-Processing Systems, volume 35, pages 36366–36381. Curran Associates, Inc., 2022.
+- [42] M. S. Yang, D. Schuurmans, P. Abbeel, and O. Nachum. Chain of thought imitation with procedure cloning. In S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, editors, Advances in Neural Information Processing Systems, volume 35, pages 36366–36381. Curran Associates, Inc., 2022.
 - [43] S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao. React: Synergizing reasoning and acting in large language models. In 11th International Conference on Learning Representations, 2023.
 - [44] E. Zelikman, J. M. Mu, N. D. Goodman, and G. Poesia. Star: Bootstrapping reasoning with reasoning. Advances in Neural Information Processing Systems, 35:24170–24184, 2022.
 - [45] Y. Zhou. Rethinking Opening Strategy: AlphaGo’s Impact on Pro Play. CreateSpace Independent, 2018.
@@ -210,4 +198,12 @@ Processing Systems, volume 35, pages 36366–36381. Curran Associates, Inc., 202
 </div>
 
 
-> برای دانلود فایل اصلی Welcome to the Era of Experience از David Silver و Richard S. Sutton، [اینجا کلیک کنید](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf){:target="_blank"}.
+## پاورقی‌ها
+
+[^footnote]: یک الگوریتم RL الگوریتمی است که یاد می‌گیرد با آزمون و خطا به هدفی دست یابد، یعنی رفتار خود را از تجربه تعامل با محیطش تطبیق می‌دهد. تطبیق ممکن است به هر وسیله‌ای اتفاق بیفتد، به عنوان مثال به‌روزرسانی وزن‌های یک شبکه عصبی، یا تطبیق در زمینه (in-context) بر اساس بازخورد از محیط.
+
+[^fn-nth-2]: تجربه و داده‌های انسانی دقیقاً متضاد نیستند. به عنوان مثال، یک سگ کاملاً از تجربه یاد می‌گیرد، اما تعامل انسانی بخشی از تجربه آن است.
+
+[^fn-nth-3]: فرضیه "پاداش کافی است" (reward-is-enough) نشان می‌دهد که هوش و توانایی‌های مرتبط با آن، می‌توانند به طور طبیعی از حداکثرسازی پاداش پدیدار شوند. این ممکن است شامل محیط‌هایی حاوی تعامل انسانی و پاداش‌های مبتنی بر بازخورد انسانی باشد.
+
+[^fn-nth-4]: در این مورد، همچنین می‌توان بازخورد انسانی ریشه‌دار را به عنوان یک تابع پاداش واحد در نظر گرفت که هدف کلی عامل را تشکیل می‌دهد، که با ساخت و بهینه‌سازی یک تابع پاداش ذاتی [8] مبتنی بر بازخورد غنی و ریشه‌دار، حداکثر می‌شود.
