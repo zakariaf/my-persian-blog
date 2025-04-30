@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "مهندسی نرم‌افزار - بخش‌های نرم"
-date: 2025-04-30 09:04:00 +0200
+date: 2025-04-30 07:04:00 +0200
 lang: fa # Language code for Persian
 author: zakaria_fatahi # Your preferred author name
 categories:
