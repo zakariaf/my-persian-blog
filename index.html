@@ -11,23 +11,20 @@ body_class: home
   <div class="hero-glow" id="glow" aria-hidden="true"></div>
   <div class="wrap hero-grid">
     <div>
-      <div class="label rv" style="--d:1.1s">برلین &nbsp;·&nbsp; {{ d.now.role }} در <a href="{{ d.now.url }}" style="color:inherit" rel="noopener" lang="en">{{ d.now.company }}</a></div>
-      <h1><span class="roll" id="roll" aria-live="off"><span class="on">اپلیکیشن</span><span>استارتاپ</span><span>ابزار متن‌باز</span><span>ویدیوی آموزشی</span></span><br><span class="split" data-delay="1.15">می‌سازم.</span></h1>
-      <p class="lede rv" style="--d:1.6s">زکریا هستم، <b>مهندس بنیان‌گذار و مهندس هوش مصنوعی در <span lang="en">Stewark</span></b>. پیش از آن هفت سال تیم‌های <span lang="en">Rails</span> را ساختم و رهبری کردم. در وقت آزادم <b>۱۳ اپلیکیشن در اپ‌استور</b> منتشر کرده‌ام، دو استارتاپ راه انداخته‌ام و ابزار متن‌باز می‌نویسم. اینجا به فارسی درباره‌ی مهندسی نرم‌افزار و هوش مصنوعی می‌نویسم.</p>
+      <div class="label rv" style="--d:1.1s">مهندس نرم‌افزار &nbsp;·&nbsp; برلین</div>
+      <h1><span class="split" data-delay="1.15">زکریا <em>فتاحی.</em></span></h1>
+      <p class="lede rv" style="--d:1.6s">مهندس نرم‌افزار در <a href="{{ d.now.url }}" rel="noopener" lang="en">{{ d.now.company }}</a>. اینجا یادداشت‌ها و ترجمه‌هایی درباره‌ی مهندسی نرم‌افزار و هوش مصنوعی می‌گذارم.</p>
       <div class="ctas rv" style="--d:1.75s">
-        <a class="btn solid" href="#writing">نوشته‌ها را بخوانید <span class="arr">←</span></a>
-        <a class="btn" href="{{ d.links.english }}" rel="noopener">نسخه‌ی انگلیسی</a>
+        <a class="btn solid" href="#writing">نوشته‌ها <span class="arr">←</span></a>
+        <a class="btn" href="{{ d.links.english }}" rel="noopener" lang="en">English</a>
       </div>
     </div>
     <div class="rv" style="--d:1.25s">
       <div class="orbit" id="orbit" aria-hidden="true">
         <div class="ring" style="width:66%;height:66%"></div>
         <div class="ring" style="width:98%;height:98%"></div>
-        <div class="me"><img src="/assets/img/me.jpg" alt=""></div>
+        <div class="me mark"><span lang="en" dir="ltr">ZF<b>.</b></span></div>
         {% for a in site.data.apps %}<div class="app" data-ring="{% if forloop.index0 < 6 %}0{% else %}1{% endif %}"><img src="/assets/img/apps/{{ a.id }}.png" alt="" loading="eager"></div>{% endfor %}
-        <div class="tag" style="right:2%;top:12%"><b>۱۳</b> اپلیکیشن در اپ‌استور</div>
-        <div class="tag" style="left:0;top:46%;animation-delay:-2s"><b>۲</b> استارتاپ</div>
-        <div class="tag" style="right:8%;bottom:8%;animation-delay:-4s"><b>۳</b> ترجمه‌ی بلند</div>
       </div>
     </div>
   </div>
@@ -38,7 +35,7 @@ body_class: home
   <div class="wrap">
     <div class="sec-head">
       <div><div class="label rv">نوشته‌ها</div><h2 class="split">یادداشت‌ها و <em>ترجمه‌ها.</em></h2></div>
-      <p class="sec-sub rv">متن‌های مهمی درباره‌ی ساختن عامل‌های هوش مصنوعی و مهارت‌های نرم مهندسی، به فارسی روان.</p>
+      <p class="sec-sub rv">ترجمه‌ی چند متن خواندنی درباره‌ی عامل‌های هوش مصنوعی و مهارت‌های نرم مهندسی.</p>
     </div>
     <div class="essays">
       {% for p in site.posts %}
@@ -61,7 +58,7 @@ body_class: home
     <div class="now">
       <div>
         <div class="label rv">اکنون</div>
-        <h2 class="split">مهندس بنیان‌گذار در <em lang="en">Stewark.</em></h2>
+        <h2 class="split">در <em lang="en">Stewark.</em></h2>
       </div>
       <div class="rv">
         <p>{{ d.now.line }}</p>
@@ -74,8 +71,8 @@ body_class: home
 <section id="apps" style="background:var(--bg-soft);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft)">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="label rv">اپلیکیشن‌ها</div><h2 class="split">برای فارسی‌زبان‌ها، <em>آفلاین و رایگان.</em></h2></div>
-      <p class="sec-sub rv">بدون حساب کاربری، بدون سرور و بدون ردیابی.</p>
+      <div><div class="label rv">اپلیکیشن‌ها</div><h2 class="split"><em>اپلیکیشن‌ها.</em></h2></div>
+      <p class="sec-sub rv">چند اپلیکیشن کوچک برای فارسی‌زبان‌ها؛ آفلاین، بدون حساب کاربری.</p>
     </div>
     <div class="fa-apps">
       {% for a in persian %}
@@ -89,7 +86,7 @@ body_class: home
     </div>
     <a class="games rv" href="{{ d.links.english }}/#apps" rel="noopener">
       <span class="icons">{% for a in games %}<img src="/assets/img/apps/{{ a.id }}.png" alt="" loading="lazy" style="--i:{{ forloop.index0 }}">{% endfor %}</span>
-      <span>و <b>۹ بازی فکری</b> به انگلیسی، با پازل‌هایی که همیشه دقیقاً یک جواب دارند <span class="arr">←</span></span>
+      <span>چند بازی فکری هم به انگلیسی هست <span class="arr">←</span></span>
     </a>
   </div>
 </section>
@@ -97,8 +94,8 @@ body_class: home
 <section id="startups">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="label rv">استارتاپ‌ها</div><h2 class="split">چیزهایی که <em>راه انداختم.</em></h2></div>
-      <p class="sec-sub rv">محصولاتی که کنار کار اصلی‌ام ساختم و هر دو فعال‌اند.</p>
+      <div><div class="label rv">استارتاپ‌ها</div><h2 class="split">پروژه‌های <em>جانبی.</em></h2></div>
+      <p class="sec-sub rv">کنار کار اصلی.</p>
     </div>
     <div class="startups">
       {% for s in d.startups %}
@@ -111,7 +108,7 @@ body_class: home
       {% endfor %}
     </div>
     <div class="closed">
-      <div class="label rv">به نتیجه نرسیدند</div>
+      <div class="label rv">تعطیل‌شده</div>
       {% for c in d.closed %}
       <div class="closed-row rv" style="--d:{{ forloop.index0 | times: 0.08 }}s">
         <span class="when">{{ c.when }}</span>
@@ -126,8 +123,8 @@ body_class: home
 <section id="videos" style="background:var(--bg-soft);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft)">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="label rv">یوتیوب · <span lang="en">{{ d.youtube.series }}</span></div><h2 class="split">پنجاه اپلیکیشن، <em>جلوی دوربین.</em></h2></div>
-      <a class="more rv" href="{{ d.youtube.channel }}" rel="noopener">کانال یوتیوب (به انگلیسی) <span>↖</span></a>
+      <div><div class="label rv">یوتیوب</div><h2 class="split" lang="en" dir="ltr" style="text-align:right">50 Apps <em>Challenge.</em></h2></div>
+      <a class="more rv" href="{{ d.youtube.channel }}" rel="noopener">یوتیوب (به انگلیسی) <span>↖</span></a>
     </div>
     <div class="videos">
       {% for v in d.youtube.videos %}
@@ -143,7 +140,7 @@ body_class: home
 <section id="about">
   <div class="wrap">
     <div class="label rv">درباره‌ی من</div>
-    <p class="fa-bio rv">کارم را با کار آزاد و تدریس کامپیوتر در کرمانشاه شروع کردم، در یک استارتاپ هم‌بنیان‌گذار بودم، به برلین رفتم و هفت سال در <span lang="en">Buzzjective</span> از برنامه‌نویس <span lang="en">Rails</span> تا مدیر فنی تیم رشد کردم. حالا مهندس بنیان‌گذار <span lang="en">Stewark</span> هستم و در وقت آزادم <em>اپلیکیشن‌های کوچک و دقیق</em> می‌سازم و آنچه یاد می‌گیرم را اینجا به فارسی می‌نویسم.</p>
-    <a class="more rv" href="{{ d.links.english }}/#about" rel="noopener">سوابق کامل در <span lang="en" dir="ltr">zakaria.dev</span> <span>↖</span></a>
+    <p class="fa-bio rv">از کار آزاد و تدریس کامپیوتر در کرمانشاه شروع کردم، بعد به برلین آمدم و هفت سال در تیم <span lang="en">Rails</span> شرکت <span lang="en">Buzzjective</span> کار کردم. حالا در <span lang="en">Stewark</span> هستم.</p>
+    <a class="more rv" href="{{ d.links.english }}/#about" rel="noopener">سوابق در <span lang="en" dir="ltr">zakaria.dev</span> <span>↖</span></a>
   </div>
 </section>

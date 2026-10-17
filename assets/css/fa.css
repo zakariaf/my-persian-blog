@@ -76,3 +76,9 @@ h3[lang="en"],h4[lang="en"],em[lang="en"]{font-family:"Iowan Old Style","Charter
 /* In a right-to-left page, overflow on the left is scrollable: park the skip link above the page instead. */
 .skip{left:auto;right:8px;top:8px;transform:translateY(-300%)}
 .skip:focus{left:auto;transform:none}
+
+/* the quiet mark at the centre of the orbit */
+.orbit .me.mark{display:grid;place-items:center;background:var(--panel)}
+.orbit .me.mark span{font-family:"Iowan Old Style","Charter",Georgia,serif;font-weight:400;font-size:clamp(34px,5vw,64px);color:var(--text)}
+.orbit .me.mark b{color:var(--accent);font-weight:400}
+.hero h1 em{color:var(--accent)}
