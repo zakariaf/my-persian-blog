@@ -1,0 +1,7 @@
+{%- assign fad_months = "ژانویه,فوریه,مارس,آوریل,مه,ژوئن,ژوئیه,اوت,سپتامبر,اکتبر,نوامبر,دسامبر" | split: "," -%}
+{%- assign fad_m = include.date | date: "%-m" | minus: 1 -%}
+{%- assign fad_day = include.date | date: "%-d" -%}
+{%- assign fad_year = include.date | date: "%Y" -%}
+{%- capture fad_d -%}{% include fa-digits.html n=fad_day %}{%- endcapture -%}
+{%- capture fad_y -%}{% include fa-digits.html n=fad_year %}{%- endcapture -%}
+{%- if include.short -%}{{ fad_months[fad_m] }} {{ fad_y | strip }}{%- else -%}{{ fad_d | strip }} {{ fad_months[fad_m] }} {{ fad_y | strip }}{%- endif -%}

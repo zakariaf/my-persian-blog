@@ -1,0 +1,46 @@
+# Everything the Persian home page lists. The English portfolio is zakaria.dev.
+
+now:
+  company: Stewark
+  url: https://stewark.com
+  role: مهندس بنیان‌گذار و مهندس هوش مصنوعی
+  line: Stewark به سرمایه‌گذاران کمک می‌کند در مجامع شرکت‌ها بر اساس سیاست خودشان رأی بدهند، و هر پیشنهادش به منبعش ارجاع داده شده است.
+
+startups:
+  - name: AppLander
+    url: https://applander.io
+    status: نسخه‌ی بتای عمومی
+    text: صفحه‌هایی که اپل و گوگل پیش از انتشار هر اپلیکیشن می‌خواهند (صفحه‌ی معرفی، حریم خصوصی، شرایط استفاده، پشتیبانی و حذف حساب) از یک داشبورد، در چند دقیقه.
+  - name: MCPlane
+    url: https://mcplane.com
+    status: فعال
+    text: بازاری برای پیدا کردن، وصل کردن و راه‌اندازی سرورهای MCP؛ بیش از ۱۶٬۰۰۰ سرور در ۱۵ دسته.
+
+closed:
+  - name: Calugo
+    when: ۲۰۲۴ تا ۲۰۲۶
+    text: یادگیری انگلیسی با خواندن کتاب‌های واقعی؛ روی هر کلمه بزنید تا معنی‌اش را از دیکشنری آکسفورد ببینید و بعد با فلش‌کارت تمرینش کنید.
+  - name: BookLovers
+    when: ۲۰۲۴
+    text: خلاصه‌ی ۱۵٬۰۰۰ کتاب، همراه با انجمن‌های گفت‌وگو درباره‌ی آن‌ها.
+  - name: 1xcoder
+    when: ۲۰۲۰
+    text: دوره‌های حرفه‌ای برنامه‌نویسی با تضمین استخدام.
+
+youtube:
+  channel: https://www.youtube.com/@zakariafatahi
+  series: 50 Apps Challenge
+  videos:
+    - id: BhEsit8nMpI
+      title: "50 Apps Challenge: NearlyStop"
+    - id: CahBx2Y1Mdo
+      title: I Wrote 0 Lines of Code. Claude Code Built This Whole iOS App
+    - id: whY279hTRTA
+      title: Claude Code Fixed a 4.3(a) App Store Rejection
+
+links:
+  github: https://github.com/zakariaf
+  linkedin: https://www.linkedin.com/in/zakaria-fatahi
+  x: https://x.com/zakariaf_dev
+  youtube: https://www.youtube.com/@zakariafatahi
+  english: https://zakaria.dev
