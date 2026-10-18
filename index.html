@@ -1,4 +1,146 @@
 ---
-layout: home
-# Index page
+layout: default
+curtain: true
+body_class: home
 ---
+{% assign d = site.data.site %}
+{% assign persian = site.data.apps | where: "lang", "fa" %}
+{% assign games = site.data.apps | where: "lang", "en" %}
+
+<section class="hero" id="top">
+  <div class="hero-glow" id="glow" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="label rv" style="--d:1.1s">یادداشت‌هایی درباره‌ی مهندسی نرم‌افزار</div>
+      <h1><span class="split" data-delay="1.15">زکریا <em>فتاحی</em></span></h1>
+      <p class="lede rv" style="--d:1.6s">اینجا از تجربه‌هام در طراحی، توسعه و مدیریت نرم‌افزار می‌نویسم. آموزش‌ها، ترجمه‌ی مقاله‌های خوب، و هر چیزی که به درد مهندسی نرم‌افزار بخوره رو هم اینجا می‌ذارم.</p>
+      <div class="ctas rv" style="--d:1.75s">
+        <a class="btn solid" href="#writing">نوشته‌ها <span class="arr">←</span></a>
+        <a class="btn" href="{{ d.links.english }}" rel="noopener" lang="en">English</a>
+      </div>
+    </div>
+    <div class="rv" style="--d:1.25s">
+      <div class="orbit" id="orbit" aria-hidden="true">
+        <div class="ring" style="width:66%;height:66%"></div>
+        <div class="ring" style="width:98%;height:98%"></div>
+        <div class="me mark"><span lang="en" dir="ltr">ZF<b>.</b></span></div>
+        {% for a in site.data.apps %}<div class="app" data-ring="{% if forloop.index0 < 6 %}0{% else %}1{% endif %}"><img src="/assets/img/apps/{{ a.id }}.png" alt="" loading="eager"></div>{% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><i></i>پایین</div>
+</section>
+
+<section id="writing" style="padding-top:40px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="label rv">نوشته‌ها</div><h2 class="split">آخرین <em>نوشته‌ها</em></h2></div>
+      <p class="sec-sub rv">فعلاً بیشترشون ترجمه‌ان.</p>
+    </div>
+    <div class="essays">
+      {% for p in site.posts %}
+      <a class="essay tilt rv" style="--d:{{ forloop.index0 | times: 0.1 }}s" href="{{ p.url }}">
+        {% if p.image %}<div class="essay-img"><img src="{{ p.media_subpath }}/{{ p.image }}" alt="" loading="lazy"></div>{% endif %}
+        <div class="essay-body">
+          <span class="label">{% include fa-date.html date=p.date short=true %} &nbsp;·&nbsp; {{ p.categories | first }}</span>
+          <h3>{{ p.title }}</h3>
+          {% if p.description %}<p>{{ p.description | strip | truncate: 170 }}</p>{% endif %}
+          <span class="go">بخونید <span>←</span></span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="now">
+  <div class="wrap">
+    <div class="now">
+      <div>
+        <div class="label rv">این روزها</div>
+        <h2 class="split">توی <em lang="en">Stewark</em> کار می‌کنم</h2>
+      </div>
+      <div class="rv">
+        <p>{{ d.now.line }}</p>
+        <a class="more" href="{{ d.now.url }}" rel="noopener" lang="en" dir="ltr">stewark.com <span>↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="apps" style="background:var(--bg-soft);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="label rv">اپ‌ها</div><h2 class="split">چند تا <em>اپ کوچیک</em></h2></div>
+      <p class="sec-sub rv">همه آفلاین‌ان و حساب کاربری نمی‌خوان.</p>
+    </div>
+    <div class="fa-apps">
+      {% for a in persian %}
+      <a class="appcard tilt rv" style="--d:{{ forloop.index0 | times: 0.08 }}s" href="{{ a.url }}" rel="noopener">
+        <img src="/assets/img/apps/{{ a.id }}.png" alt="" loading="lazy">
+        <h4>{{ a.name }}</h4>
+        <p>{{ a.fa_text }}</p>
+        <span class="store">دانلود از اپ‌استور ↖</span>
+      </a>
+      {% endfor %}
+    </div>
+    <a class="games rv" href="{{ d.links.english }}/#apps" rel="noopener">
+      <span class="icons">{% for a in games %}<img src="/assets/img/apps/{{ a.id }}.png" alt="" loading="lazy" style="--i:{{ forloop.index0 }}">{% endfor %}</span>
+      <span>چند تا بازی فکری انگلیسی هم هست <span class="arr">←</span></span>
+    </a>
+  </div>
+</section>
+
+<section id="startups">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="label rv">استارتاپ‌ها</div><h2 class="split">کارهای <em>جانبی</em></h2></div>
+      <p class="sec-sub rv">کنار کار اصلی.</p>
+    </div>
+    <div class="startups">
+      {% for s in d.startups %}
+      <a class="startup tilt rv" style="--d:{{ forloop.index0 | times: 0.12 }}s" href="{{ s.url }}" rel="noopener">
+        <div class="top"><span class="status">{{ s.status }}</span><span class="label" lang="en" dir="ltr">{{ s.url | remove: 'https://' }}</span></div>
+        <h3 lang="en" dir="ltr">{{ s.name }}</h3>
+        <p>{{ s.text }}</p>
+        <span class="go">سر بزنید <span>←</span></span>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="closed">
+      <div class="label rv">اونایی که تعطیل شدن</div>
+      {% for c in d.closed %}
+      <div class="closed-row rv" style="--d:{{ forloop.index0 | times: 0.08 }}s">
+        <span class="when">{{ c.when }}</span>
+        <h4 lang="en" dir="ltr"><span>{{ c.name }}</span></h4>
+        <p>{{ c.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="videos" style="background:var(--bg-soft);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="label rv">یوتیوب</div><h2 class="split" lang="en" dir="ltr" style="text-align:right">50 Apps <em>Challenge.</em></h2></div>
+      <a class="more rv" href="{{ d.youtube.channel }}" rel="noopener">کانال یوتیوب (ویدیوها انگلیسی‌ان) <span>↖</span></a>
+    </div>
+    <div class="videos">
+      {% for v in d.youtube.videos %}
+      <a class="video rv" style="--d:{{ forloop.index0 | times: 0.1 }}s" href="https://www.youtube.com/watch?v={{ v.id }}" rel="noopener">
+        <div class="thumb"><img src="/assets/img/videos/{{ v.id }}.jpg" alt="" loading="lazy"><span class="play"></span></div>
+        <h4 lang="en" dir="ltr">{{ v.title }}</h4>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="label rv">درباره‌ی من</div>
+    <p class="fa-bio rv">کارم رو با فریلنسری و تدریس کامپیوتر توی کرمانشاه شروع کردم. بعدش اومدم برلین و هفت سال توی تیم <span lang="en">Rails</span> شرکت <span lang="en">Buzzjective</span> کار کردم. الان توی <span lang="en">Stewark</span> هستم.</p>
+    <a class="more rv" href="{{ d.links.english }}/#about" rel="noopener">سوابق کامل‌تر توی <span lang="en" dir="ltr">zakaria.dev</span> <span>↖</span></a>
+  </div>
+</section>
